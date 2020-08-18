@@ -6,6 +6,6 @@ Pensando nisso, esta sendo criado o projeto match_renascer que tem por objetivo 
 
 ** Acompanhe o desenvolvimento do código deste projeto! **
 
-- [Backend](https://github.com/brigor7/match_renascer/backend)
-- [Frontend](https://github.com/brigor7/match_renascer/frontend)
-- [Protótipo do projeto](https://whimsical.com/7j7CPnXnYaKXpw98eG5L42)
+- [Backend](https://github.com/brigor7/match_renascer/tree/master/backend)
+- Frontend
+- [Protótipo do projeto](https://whimsical.com/7j7CPnXnYaKXpw98eG5L42) Acessivel via desktop navegador
