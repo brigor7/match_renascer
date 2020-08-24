@@ -1,7 +1,10 @@
 import express from 'express';
 import routes from './routes';
+import './database';
 
 const app = express();
+const port = 3333;
+
 app.use(express.json());
 app.use(routes);
-app.listen(3333, () => console.log('Server Match_Renascer Started!'));
+app.listen(port, () => console.log('Server Match_Renascer Started!'));
