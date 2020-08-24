@@ -1,12 +1,8 @@
 import { Router } from 'express';
+import userRouter from './user.routes';
 
 const routes = Router();
 
-routes.get('/', (_, res) =>
-  res.send({ Message: 'Server Match_Renascer Started!' }),
-);
-routes.post('/', (req, res) => {
-  const user = req.body;
-  res.json(user);
-});
+routes.use('/users', userRouter);
+
 export default routes;
