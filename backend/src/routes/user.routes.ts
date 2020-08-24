@@ -1,4 +1,4 @@
-import { Router } from 'express';
+import { Router, response } from 'express';
 import CreateUserService from '../service/createUserService';
 
 const userRoutes = Router();
@@ -11,9 +11,8 @@ userRoutes.post('/', async (request, response) => {
   return response.json(user);
 });
 
-userRoutes.get('/', (req, res) => {
-  res.send('Acesso ok!');
-});
+userRoutes.get('/', async (req, res) => {});
+
 userRoutes.put('/', (req, res) => {});
 userRoutes.patch('/', (req, res) => {});
 
